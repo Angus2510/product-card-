@@ -4,13 +4,13 @@ import { Montserrat } from "next/font/google";
 
 const productCard = () => {
   return (
-    <div className="container flex">
+    <div className="container flex flex-col md:flex-row">
       <Image
         src="/images/image-product-desktop.jpg"
         alt="card pic"
         width={300}
         height={600}
-        className="rounded-l-lg"
+        className="rounded-l-lg "
       />
       <div className="bg-white w-[300px] rounded-r-lg pl-6">
         <h6 className="text-zinc-400 mt-6 tracking-widest">PURFUME</h6>
